@@ -5,8 +5,6 @@ ur5 robot with gazebo simulation and  physical driver
 ubuntu16.04
 ros kinetic
 
-## source
-source ./devel/setup.bash
 
 ## use
 ### 1.仿真操作命令:
@@ -14,6 +12,7 @@ source ./devel/setup.bash
 1.启动ur5 gazebo仿真
 
 ```comandline
+source ./devel/setup.bash
 roslaunch ur_gazebo ur5.launch
 ```
 2.运行moveit规划程序
