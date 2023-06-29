@@ -1,2 +1,0 @@
-robotiq/robotiq_description:robotiq/robotiq_gazebo:ur5/ur5_description:ur5/ur5_gazebo:ur5_moveit_config:ur_modern_driver
--DCATKIN_DEVEL_PREFIX=/data1/szf_files/code/ur5_ws/devel -DCMAKE_INSTALL_PREFIX=/data1/szf_files/code/ur5_ws/install -G Unix Makefiles
