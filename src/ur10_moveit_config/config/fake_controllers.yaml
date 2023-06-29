@@ -1,7 +1,5 @@
 controller_list:
-  - name: ""
-    action_ns: follow_joint_trajectory
-    type: FollowJointTrajectory
+  - name: fake_manipulator_controller
     joints:
       - shoulder_pan_joint
       - shoulder_lift_joint
@@ -9,3 +7,6 @@ controller_list:
       - wrist_1_joint
       - wrist_2_joint
       - wrist_3_joint
+initial:  # Define initial robot poses.
+  - group: manipulator
+    pose: home
