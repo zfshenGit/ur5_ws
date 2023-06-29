@@ -1,4 +1,0 @@
-<launch >
- <include file="$(find ur_modern_driver)/launch/ur5_bringup.launch">
- </include>
-</launch>
