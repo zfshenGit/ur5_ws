@@ -1,0 +1,9 @@
+[submodule "src/universal_robot"]
+	path = src/universal_robot
+	url = ssh://git@github.com:zfshenGit/universal_robot.git
+[submodule "src/Universal_Robots_ROS_Driver"]
+	path = src/Universal_Robots_ROS_Driver
+	url = ssh://git@github.com:zfshenGit/Universal_Robots_ROS_Driver.git
+[submodule "src/ur_msgs"]
+	path = src/ur_msgs
+	url = ssh://git@github.com:zfshenGit/ur_msgs.git
