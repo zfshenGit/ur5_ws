@@ -1,5 +1,5 @@
 # ur5_ws
-ur5 robot with gazebo simulation 
+ur5 robot with gazebo simulation and physical driver
 
 ## env
 ubuntu20.04
@@ -11,15 +11,6 @@ ros noetic
 
 ```commandline
 rosdep check --from-paths src --ignore-src -r -y
-# 输出如下
-System dependencies have not been satisfied:
-apt	ros-noetic-ur-description
-apt	ros-noetic-moveit-ros-move-group
-apt	ros-noetic-moveit-planners-ompl
-apt	ros-noetic-moveit-ros-visualization
-apt	ros-noetic-moveit-fake-controller-manager
-apt	ros-noetic-moveit-simple-controller-manager
-apt	ros-noetic-ur-msgs
 ```
 
 安装依赖
