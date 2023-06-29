@@ -5,6 +5,28 @@ ur5 robot with gazebo simulation and  physical driver
 ubuntu16.04
 ros kinetic
 
+## install
+
+查看ros依赖
+
+```commandline
+rosdep check --from-paths src --ignore-src -r -y
+# 输出如下
+System dependencies have not been satisfied:
+apt	ros-noetic-ur-description
+apt	ros-noetic-moveit-ros-move-group
+apt	ros-noetic-moveit-planners-ompl
+apt	ros-noetic-moveit-ros-visualization
+apt	ros-noetic-moveit-fake-controller-manager
+apt	ros-noetic-moveit-simple-controller-manager
+apt	ros-noetic-ur-msgs
+```
+
+安装依赖
+
+```commandline
+rosdep install --from-paths src --ignore-src -r -y
+```
 
 ## use
 ### 1.仿真操作命令:
