@@ -16,3 +16,5 @@ source ./devel/setup.bash
 		roslaunch ur5_moveit_config ur5_moveit_planning_execution.launch limited:=true
 	3.运行rviz可视化配置界面
 		roslaunch ur5_moveit_config moveit_rviz.launch config:=true
+
+新ur5模型urdf和xml模型文件在ur_description/RPY路径下
